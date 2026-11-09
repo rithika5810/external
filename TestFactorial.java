@@ -10,6 +10,10 @@ if (Factorial.compute(0) != 1) {
     System.err.println("Test failed for input 0");
     
 }
+			if (Factorial.compute(1) != 1) {
+    System.err.println("Test failed for input 1");
+    
+}
 	  
             System.out.println("All tests passed.");
         } catch (Exception e) {
